@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8bda9eae-10e7-4688-bb4f-e0a63fec0c8d" name="Changes" comment="new project">
+      <change afterPath="$PROJECT_DIR$/js-cloud/src/main/java/org/son/jscloud/t01/search/Search.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js-cloud/src/main/java/org/son/jscloud/t01/search/SearchHandle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js-cloud/src/main/java/org/son/jscloud/t01/search/SearchHandleFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js-cloud/src/main/java/org/son/jscloud/t01/search/SearchRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js-cloud/src/main/java/org/son/jscloud/t01/search/SearchService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js-cloud/src/main/java/org/son/jscloud/t01/search/handle/AHandle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js-cloud/src/main/java/org/son/jscloud/t01/search/handle/ASearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js-cloud/src/main/java/org/son/jscloud/JsCloudApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/js-cloud/src/main/java/org/son/jscloud/JsCloudApplication.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/js-cloud">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/js-gateway">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/js-user">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="js-cloud" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;karlien2918&quot;
+  }
+}</component>
+  <component name="GithubProjectSettings">
+    <option name="branchProtectionPatterns">
+      <list>
+        <option value="new" />
+      </list>
+    </option>
+  </component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/karlien2918/js.git&quot;,
+    &quot;accountId&quot;: &quot;641c16cc-34b2-45e9-af4b-4a15dea64eb0&quot;
+  }
+}</component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2spP2WKADhml9suLRzw42ZDv6Jq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.Build js-cloud.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Build js-gateway.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Build js-user.executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;Spring Boot.JsCloudApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.JsGatewayApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.JsUserApplication 1.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.JsUserApplication 2.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.JsUserApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;21&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/t8g-2410-pn-001/Documents/js&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="KtorApplicationConfigurationType" />
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.JsUserApplication 1">
+    <configuration name="JsCloudApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="js-cloud.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.son.jscloud.JsCloudApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.son.jscloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JsGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="js-gateway.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.son.jsgateway.JsGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JsUserApplication 1" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
+      <module name="js-user.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.son.jsuser.JsUserApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.son.jsuser.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JsUserApplication 2" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="js-user.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.son.jsuser.JsUserApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.son.jsuser.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.JsCloudApplication" />
+      <item itemvalue="Spring Boot.JsGatewayApplication" />
+      <item itemvalue="Spring Boot.JsUserApplication 1" />
+      <item itemvalue="Spring Boot.JsUserApplication 2" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.JsUserApplication 1" />
+        <item itemvalue="Spring Boot.JsCloudApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8bda9eae-10e7-4688-bb4f-e0a63fec0c8d" name="Changes" comment="" />
+      <created>1739149336013</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1739149336013</updated>
+      <workItem from="1739149337150" duration="7193000" />
+      <workItem from="1739339547033" duration="598000" />
+      <workItem from="1743570641950" duration="12000" />
+    </task>
+    <task id="LOCAL-00001" summary="new project">
+      <option name="closed" value="true" />
+      <created>1739250392487</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1739250392487</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/js" />
+    </ignored-roots>
+    <MESSAGE value="new project" />
+    <option name="LAST_COMMIT_MESSAGE" value="new project" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/js-user/src/main/java/org/son/jsuser/controller/UserController.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
