@@ -1,4 +1,4 @@
 ### GET request to example server
-GET http://localhost:8888/config-service/local
+GET http://localhost:8888/application/prod
 
 ###
