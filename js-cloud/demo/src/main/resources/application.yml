@@ -1,9 +1,33 @@
 spring:
   application:
-    name: demo
-server:
-  port: 9002
+    name: context
+  profiles:
+    active: local
+  datasource:
+    username: jskim
+    password: 1234
+    url: jdbc:postgresql://localhost:5432/demo
+    hikari:
+      connection-timeout: 2000
+      maximum-pool-size: 5
+  sql:
+    init:
+      mode: always
+  config:
+    import: "optional:configserver:http://localhost:8888"
+  cloud:
+    config:
+      request-connect-timeout: 5000
+      request-read-timeout: 5000
+      fail-fast: true
+      retry:
+        max-attempts: 6
+        initial-interval: 1000
+        max-interval: 2000
+        multiplier: 1.1
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh
 
-demo:
-  title:
-  contents:

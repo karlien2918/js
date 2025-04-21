@@ -6,6 +6,9 @@ import java.util.Optional;
 
 public interface DemoRepository {
 	Optional<Demo> findById(String id);
-	void save(Demo demo);
+	Demo save(Demo demo);
 	List<Demo> findByAll();
+	Optional<Demo> findByTitle(String title);
+
+	Demo add(String title);
 }

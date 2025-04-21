@@ -1,5 +1,6 @@
 package com.example.demo.domain;
 
+import java.math.BigDecimal;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.context.event.ApplicationReadyEvent;
@@ -9,15 +10,15 @@ import org.springframework.stereotype.Component;
 
 @Component
 @RequiredArgsConstructor
-@Profile("testdata")
+@Profile("local")
 @Slf4j
 public class DemoDataLoader {
 	private final DemoRepository demoRepository;
 
 	@EventListener(ApplicationReadyEvent.class)
 	public void loadTestData(){
-		var demo = new Demo("id1", "contents1");
-		var demo2 = new Demo("id2", "contents2");
+		var demo = Demo.of("id1", "contents1", new BigDecimal(1));
+		var demo2 = Demo.of("id2", "contents2", new BigDecimal(2));
 		demoRepository.save(demo);
 		demoRepository.save(demo2);
 		log.debug("Demo data loaded");

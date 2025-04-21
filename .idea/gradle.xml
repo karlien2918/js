@@ -8,6 +8,7 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/js-cloud" />
+            <option value="$PROJECT_DIR$/js-cloud/demo" />
           </set>
         </option>
       </GradleProjectSettings>

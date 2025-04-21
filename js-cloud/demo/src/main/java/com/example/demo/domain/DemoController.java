@@ -5,6 +5,9 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 @RequiredArgsConstructor
@@ -13,11 +16,13 @@ public class DemoController {
 
 	private final DemoService demoService;
 	private final DemoProperties demoProperties;
+	private final ContextProperties contextProperties;
+
 
 	@GetMapping
 	public ResponseEntity<String> index(){
 		String port = demoService.getPort();
-		String title = demoProperties.getTitle();
+		String title = contextProperties.getTitle();
 		return ResponseEntity.ok(title + ". Current Port : " + port);
 	}
 
@@ -33,4 +38,10 @@ public class DemoController {
 		String contents = demoProperties.getContents();
 		return ResponseEntity.ok(contents);
 	}
+	@PostMapping(value ="/edit")
+	public ResponseEntity<Demo> editTitle(@RequestBody DemoParam param){
+		final Demo demo = demoService.editTitle(param.getTitle());
+		return new ResponseEntity<>(demo, HttpStatus.OK);
+	}
+
 }

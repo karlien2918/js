@@ -1,0 +1,14 @@
+### GET request to example server
+GET http://localhost:8080
+###
+GET http://localhost:8888/context/local
+###
+POST http://localhost:8080/actuator/refresh
+###
+POST http://localhost:8080/edit
+Content-Type: application/json
+
+{
+  "title": "id2"
+}
+###

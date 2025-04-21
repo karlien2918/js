@@ -9,6 +9,8 @@ server:
 spring:
   application:
     name: config-service
+  config:
+    import: "optional:config server:"
   cloud:
     config:
       server:
