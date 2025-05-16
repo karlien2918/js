@@ -9,6 +9,14 @@ POST http://localhost:8080/edit
 Content-Type: application/json
 
 {
-  "title": "id2"
+  "title": "id3"
+}
+###
+###
+DELETE http://localhost:8080/delete
+Content-Type: application/json
+
+{
+  "title": "id3"
 }
 ###

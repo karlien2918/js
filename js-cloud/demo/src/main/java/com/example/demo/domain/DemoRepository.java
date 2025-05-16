@@ -1,14 +1,20 @@
 package com.example.demo.domain;
 
 
-import java.util.List;
 import java.util.Optional;
 
-public interface DemoRepository {
-	Optional<Demo> findById(String id);
-	Demo save(Demo demo);
-	List<Demo> findByAll();
-	Optional<Demo> findByTitle(String title);
+import org.springframework.data.jdbc.repository.query.Modifying;
+import org.springframework.data.jdbc.repository.query.Query;
+import org.springframework.data.repository.CrudRepository;
+import org.springframework.data.repository.query.Param;
+import org.springframework.transaction.annotation.Transactional;
 
-	Demo add(String title);
+public interface DemoRepository extends CrudRepository<Demo, Long> {
+	Optional<Demo> findByTitle(String title);
+	boolean existsByTitle(String title);
+
+	@Modifying
+	@Transactional
+	@Query("delete from demo d where title = :title")
+	void deleteByTitle(@Param("title") String title);
 }

@@ -1,0 +1,1 @@
+ALTER TABLE demo ADD COLUMN publisher varchar(255) DEFAULT NULL;

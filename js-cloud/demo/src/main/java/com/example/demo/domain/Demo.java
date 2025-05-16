@@ -15,10 +15,12 @@ public record Demo(
 
 		@NotBlank(message = "The title must be defied.")
 		String title,
-		String content,
+		String contents,
 
 		@Positive
 		BigDecimal price,
+
+		String publisher,
 
 		@CreatedDate
 		Instant createDate,
@@ -31,9 +33,7 @@ public record Demo(
 
 
 ) {
-	public static Demo of(String title, String content, BigDecimal price){
-		return new Demo(null, title, content, price,null,null, 0);
+	public static Demo of(String title, String content, BigDecimal price, String publisher){
+		return new Demo(null, title, content, price,publisher, null,null, 0);
 	}
-
-
 }
