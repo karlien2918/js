@@ -9,6 +9,6 @@ class IndexController {
 
     @GetMapping
     fun index(): ResponseEntity<String>{
-        return ResponseEntity.ok("hi1")
+        return ResponseEntity.ok("hi12")
     }
 }
