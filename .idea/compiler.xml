@@ -18,5 +18,10 @@
         <module name="js-cloud.demo.main" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="kotlintest" target="17" />
+      <module name="kotlintest.main" target="17" />
+      <module name="kotlintest.test" target="17" />
+    </bytecodeTargetLevel>
   </component>
 </project>

@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/js.iml" filepath="$PROJECT_DIR$/.idea/js.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/js-gateway.main.iml" filepath="$PROJECT_DIR$/.idea/modules/js-gateway.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/js-cloud.main.iml" filepath="$PROJECT_DIR$/.idea/modules/js-cloud.main.iml" />
     </modules>
   </component>
 </project>
