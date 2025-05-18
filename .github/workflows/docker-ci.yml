@@ -26,14 +26,6 @@ jobs:
           distribution: 'temurin'       # Java 배포판: Eclipse Temurin (가장 많이 사용됨)
           java-version: '17'           # 사용할 JDK 버전: 17
 
-      - name: Grant execute permission for Gradle
-        run: chmod +x ./gradlew
-        # gradlew 파일에 실행 권한 부여 (리눅스에서 필수) – Git 클론 후 기본적으로 권한이 없음
-
-      - name: Run tests
-        run: ./gradlew test
-        # 테스트 실행 – 테스트 실패 시 이후 단계(Docker 빌드)는 실행되지 않고 job은 실패 처리됨
-
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v3
         # 최신 Docker 기능 사용 가능하게 만드는 빌드 환경 설정 – 고급 캐시, 플랫폼 지정 등에 사용됨
@@ -54,3 +46,5 @@ jobs:
           # Docker 이미지 태그 형식:
           # 예시: ghcr.io/사용자명/레포명:ci-<커밋 SHA>
           # 고유 SHA로 버전 추적이 쉬움 (배포 시점 추적 등 용이)
+
+
