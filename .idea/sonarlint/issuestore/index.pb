@@ -13,3 +13,7 @@ N
 js-cloud/kotlintest/.gitignore,e/3/e349db049e21bc88f8c95b8ac6c3862e54809499
 U
 %js-cloud/kotlintest/gradle.properties,5/e/5e9db314f6299066f73f4ce14ad07c0a36551f60
+W
+'js-cloud/.github/workflows/js-cloud.yml,f/0/f0634ade2b0432e7155c478ace8332f35702f39d
+X
+(js-cloud/.github/workflows/docker-ci.yml,c/5/c5b541915d4f2849b8a7eed9237059051cfb433d
