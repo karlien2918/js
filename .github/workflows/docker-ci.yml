@@ -29,11 +29,11 @@ jobs:
           java-version: '17'           # 사용할 JDK 버전: 17
 
       - name: Grant execute permission for Gradle
-        run: chmod +x /home/runner/work/js/js-cloud/kotlintest/gradlew
+        run: chmod +x /home/runner/work/js/js/js-cloud/kotlintest/gradlew
         # gradlew 파일에 실행 권한 부여 (리눅스에서 필수) – Git 클론 후 기본적으로 권한이 없음
 
       - name: Run tests
-        run: /home/runner/work/js/js-cloud/kotlintest/gradlew test
+        run: /home/runner/work/js/js/js-cloud/kotlintest/gradlew test
         # 테스트 실행 – 테스트 실패 시 이후 단계(Docker 빌드)는 실행되지 않고 job은 실패 처리됨
 
       - name: Set up Docker Buildx
